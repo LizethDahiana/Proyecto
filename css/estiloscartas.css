@@ -11,15 +11,14 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: rgb(9, 74, 136);
 }
 
 
 .card {
     position: relative;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
+    width: 450px;
+    height: 450px;
+    margin: 30px;
 }
 
 .card .face {
@@ -29,7 +28,7 @@ body {
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
-    transition: .4s;
+    transition: .9s;
 }
 
 .card .front {
@@ -58,7 +57,7 @@ body {
 .card .back {
     transform: perspective(600px) rotateY(180deg);
     background: rgb(3, 35, 54);
-    padding: 15px;
+    padding: 70px;
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -78,13 +77,13 @@ body {
 }
 
 .card .back h3 {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 30px;;
     letter-spacing: 2px;
 }
 
 .card .back p {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 20px;;
 } 
 
 .card:hover .front {

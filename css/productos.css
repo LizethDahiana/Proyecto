@@ -60,21 +60,19 @@ header {
 .menu li {
     display: inline-block;
     text-align: center;
-    padding: 10px;
 }
 
 .menu li a:hover {
     border-bottom: 2px solid #f13be2;
     background: #23BAC4;
-    border-radius: 5px;
 }
 
 .titulo {
     text-align: center;
     font-size: 40px;
     color: blueviolet;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -86,7 +84,9 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    border: 2px solid #000;
+    margin-bottom: 30px;
+    border: 5px solid #000;
+    border-radius: 10px;
     background-color: hsl(271, 76%, 53%, 0.9);
 }
 
@@ -95,7 +95,6 @@ header {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 2px #000;
-    overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
@@ -104,10 +103,9 @@ header {
 
 .productos:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
-    /* transform: translateY(-5%); */
     transform: scale(1.05);
     box-shadow: 0 12px 16px #000;
-    border: 2px solid #000;
+    border: 3px solid #000;
     background: url("https://img.freepik.com/vector-gratis/patron-costuras-diente-dibujos-animados-kawaii-implante-corona_74565-419.jpg");
     cursor: pointer;
 }
@@ -134,16 +132,5 @@ header {
     font-size: 20px;
     margin-top: 8px;
     padding: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
-@media only screen and (min-width:320px) and (max-width:768px) and (min-height:767px) {
-    .container .productos {
-        flex-wrap: wrap;
-    }
-
-    .productos {
-        margin: 20px;
-    }
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
